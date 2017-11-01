@@ -44,6 +44,9 @@ Aquel participante/grupo que obtenga el mejor ajuste se llevará una mención ho
 12. (ca) número de vasos principales (0-3) coloreados por fluoroscopia       
 13. (thal) 3 = normal; 6 = defecto fijo; 7 = defecto reversible
 14. (num) diagnosis enfermedad corazón (estado post-angiografía)
-    * Valor 0: < 50% extrechamiento del diámetro
-    * Valor 1: > 50% extrechamiento del diámetro
+    * Valor 0: < 50% estrechamiento del diámetro
+    * Valor >=1: > 50% estrechamiento del diámetro
+    
+**¡Ojo!** num está categorizado de 0-4 según el grado de estrechamiento 0 (no enfermo) 1-2-3-4 (enfermo)
+La idea es clasificar enfermo/no enfermo. Sin embargo, si tenéis tiempo podéis clasificar los 5 grupos.
 		
