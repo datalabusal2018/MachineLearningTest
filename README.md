@@ -50,3 +50,15 @@ Aquel participante/grupo que obtenga el mejor ajuste se llevará una mención ho
 **¡Ojo!** num está categorizado de 0-4 según el grado de estrechamiento 0 (no enfermo) 1-2-3-4 (enfermo)
 La idea es clasificar enfermo/no enfermo. Sin embargo, si tenéis tiempo podéis clasificar los 5 grupos.
 		
+## Envío de soluciones
+
+Cada participante deberá crear una carpeta con el nombre del algoritmo que haya usado para ajustar el modelo.
+
+En la carpeta existirán tres archivos:
+
+1. Jupyter notebook explicando cómo ha desarrollado el modelo.
+2. Archivo test con las soluciones.
+
+Ejemplo: Si has usado el modelo ``Modelo_ejemplo`` deberás crear una carpeta con el mismo nombre. En la misma existirá un Jupyter notebook (el nombre del mismo tiene que coincidir con el modelo) y por último un archivo test.csv igual que el que se adjunta en ``data`` añadiendo una columna ``num`` con los resultados (1/0 únicamente).
+
+Una vez creada la carpeta y habiendo introducido los elementos explicados anteriormente. Procede a hacer ``merge`` de tu rama.
