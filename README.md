@@ -62,3 +62,21 @@ En la carpeta existirán tres archivos:
 Ejemplo: Si has usado el modelo ``Modelo_ejemplo`` deberás crear una carpeta con el mismo nombre. En la misma existirá un Jupyter notebook (el nombre del mismo tiene que coincidir con el modelo) y por último un archivo test.csv igual que el que se adjunta en ``data`` añadiendo una columna ``num`` con los resultados (1/0 únicamente) y una columna ``prob`` con la probabilidad de que esté enfermo el paciente.
 
 Una vez creada la carpeta y habiendo introducido los elementos explicados anteriormente. Procede a hacer ``merge`` de tu rama.
+
+## Resultados
+
+REGRESIÓN LOGÍSTICA
+accuracy_score > 0.79487179487179482
+True Negatives > 14
+True Positives > 17
+False Negatives > 7
+False Positives > 1
+Log_loss > 0.638
+
+SVM
+accuracy_score > 0.71794871794871795
+True Negatives > 13
+True Positives > 15
+False Negatives > 9
+False Positives > 2
+Log_loss > 1.405
