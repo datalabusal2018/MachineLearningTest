@@ -65,18 +65,18 @@ Una vez creada la carpeta y habiendo introducido los elementos explicados anteri
 
 ## Resultados
 
-REGRESIÓN LOGÍSTICA
-accuracy_score > 0.79487179487179482
-True Negatives > 14
-True Positives > 17
-False Negatives > 7
-False Positives > 1
-Log_loss > 0.638
+1. REGRESIÓN LOGÍSTICA
+	* accuracy_score > 0.79487179487179482
+	* True Negatives > 14
+	* True Positives > 17
+	* False Negatives > 7
+	* False Positives > 1
+	* Log_loss > 0.638
 
-SVM
-accuracy_score > 0.71794871794871795
-True Negatives > 13
-True Positives > 15
-False Negatives > 9
-False Positives > 2
-Log_loss > 1.405
+2. SVM
+	* accuracy_score > 0.71794871794871795
+	* True Negatives > 13
+	* True Positives > 15
+	* False Negatives > 9
+	* False Positives > 2
+	* Log_loss > 1.405
